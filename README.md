@@ -5,11 +5,12 @@
   <em>Mein Motto: „Läuft lokal? Dann läuft's.“</em>
 </p>
 
+> [!NOTE]
+> 🤖 **Transparenzhinweis:** Dieses Profil wurde von einer KI geschrieben. Ich habe ihr gesagt, sie soll mich vorstellen, und sie hat sich sofort ehrfürchtig durch meine Repos gelesen. Jede Übertreibung hier ist also ein Halluzinationsproblem, nicht mein Ego. Ich hätte es natürlich auch selbst schreiben können. Ich hatte nur gerade ein Wochenendprojekt.
+
 ---
 
-## 🎤 Vorstellungsrunde
-
-Stell dir einen Stuhlkreis vor. Alle sitzen schon, jemand hat Kaffee mitgebracht, und jetzt bin ich dran:
+## 🎤 Kurz zu mir
 
 > **Name:** Michael Maurer (hier: [@damaurer](https://github.com/damaurer))<br>
 > **Wohnort:** irgendwo zwischen IDE und Terminal<br>
@@ -18,7 +19,7 @@ Stell dir einen Stuhlkreis vor. Alle sitzen schon, jemand hat Kaffee mitgebracht
 > **Schwäche:** „mal eben am Wochenende“ dauert selten nur ein Wochenende<br>
 > **Fun Fact:** In meinem Prügelspiel ist der Endboss eine Tomate. Mit Umhang.
 
-Und weil eine Vorstellungsrunde ohne Mitbringsel langweilig ist, stelle ich dir gleich meine Projekte vor. Bitte einmal reihum!
+Genug von mir, hier sind die Projekte, an denen ich (gelegentlich mit KI-Kollegen) gebaut habe:
 
 ---
 
@@ -83,10 +84,10 @@ Und weil eine Vorstellungsrunde ohne Mitbringsel langweilig ist, stelle ich dir 
 
 ---
 
-## 🎲 Zum Abschluss der Runde
+## 🎲 Zum Schluss
 
 - 🕹️ Lust auf eine Runde SouthBeat? Gegen Darth Tomater hast du sowieso keine Chance.
 - 🐛 Bug gefunden? Issue auf! Ich freue mich (meistens).
 - ⭐ Ein Stern hier und da macht mich glücklicher als ein grüner CI-Build. Fast.
 
-<p align="center"><em>Danke fürs Zuhören! Der Nächste im Stuhlkreis ist … du. 🪑</em></p>
+<p align="center"><em>Dieses README wurde mit viel Liebe und null eigenen Tastenanschlägen erstellt. 🤖✍️</em></p>
