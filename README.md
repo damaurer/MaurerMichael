@@ -51,21 +51,58 @@ Genug von mir, hier sind die Projekte, an denen ich (gelegentlich mit KI-Kollege
 - 🧠 Ein KI-Assistent, der **direkt im Browser** läuft und beim Planen hilft, ganz ohne Server
 - 📱 Installierbar als Progressive Web App
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/damaurer/localift/main/public/pwa-screenshot-mobile.png" alt="LOCALlift: Dashboard mit Gesamtvolumen, Dauer, Sätzen und Workout-Start" width="300">
+</p>
+
 `React` · `TypeScript` · `Vite` · `Tailwind CSS` · `PWA` · `wllama`
 
 ---
 
-## ⚡ Projekt Nr. 3: learningSpark
+## 🎮 Projekt Nr. 3: PocketDimension
 
-**[learningSpark](https://github.com/damaurer/learningSpark)** ist mein Notizblock aus dem Kurs „Apache Spark for Java Developers“. Hier habe ich gelernt, dass „Big Data“ vor allem bedeutet, dass der Laptop-Lüfter plötzlich sehr motiviert ist.
+**PocketDimension** *(privat, noch in der Werkstatt)* ist mein selbst gehostetes Kontrollzentrum für Gameserver. Statt mich nachts per SSH auf einen Server zu schleichen, weil jemand „nur kurz Minecraft“ spielen will, klickt man hier auf einen Knopf und bekommt einen eigenen Server als Docker-Container.
 
-`Java` · `Apache Spark` · `Maven`
+<p align="center">
+  <img src="assets/pocketdimension-games.webp" alt="PocketDimension: Spielekatalog mit Core Keeper, Counter-Strike 2, Factorio, Minecraft, Palworld und Project Zomboid" width="700">
+</p>
+
+- 🕹️ **Spielekatalog:** Minecraft, Valheim, Terraria, Factorio, Counter-Strike 2, Palworld, Satisfactory, Rust, Core Keeper und Project Zomboid
+- 🧩 **Eigene Spiele:** Alles, was in Docker läuft, kommt per Vorlage dazu (Image, Ports, Datenordner, Variablen)
+- 📊 **Live-Status:** CPU, RAM, verbundene Spieler, Karte und Version jedes Servers
+- 🔀 **Port-Jonglage:** Der zweite Minecraft-Server bekommt automatisch andere Ports, damit sich niemand in die Quere kommt
+
+`SvelteKit` · `TypeScript` · `Docker` · `SQLite` · `GameDig`
+
+---
+
+## 🍻 Projekt Nr. 4: Vereint
+
+**Vereint** *(privat, noch in der Werkstatt)* ist die App für Gruppen aller Art, vom Stammtisch über den Verein bis zum Team. Endlich keine Strichliste mehr auf dem Bierdeckel und keine Diskussion, wer die letzte Runde bezahlt hat.
+
+<p align="center">
+  <img src="assets/vereint-start.webp" alt="Vereint: Startseite mit Guthaben und nächstem Termin" width="240">
+  &nbsp;&nbsp;
+  <img src="assets/vereint-chat.webp" alt="Vereint: Gruppenchat mit Infotafel" width="240">
+</p>
+<p align="center">
+  <img src="assets/vereint-strichliste.webp" alt="Vereint: Thekenterminal mit digitaler Strichliste" width="700">
+</p>
+
+- 📅 **Treffen und Events** mit Zu- und Absagen
+- 💬 **Gruppen-, Direkt- und Event-Chats**, die Nachrichten landen verschlüsselt auf dem Server (AES-256-GCM, weil Stammtischgeheimnisse heilig sind)
+- 💶 **Guthaben statt Bargeld** und Bezahlen per Barcode-Scan
+- 🍺 **Thekenterminal** im Kiosk-Modus mit digitaler Strichliste und dem Knopf „Ganzen Abend stiften“
+- 📸 **Moments** mit Fotos und kurzen Videos, dazu Statistiken und Einladungen per Link
+- 📱 Installierbar als Web-App mit Push-Mitteilungen
+
+`Kotlin` · `Spring Boot` · `Angular SSR` · `Keycloak` · `PostgreSQL` · `AWS`
 
 ---
 
 ## 🔒 Und in der geheimen Werkstatt …
 
-… brodeln noch einige private Projekte vor sich hin: KI-Assistenten, Vereinsverwaltung, Server-Setups und das eine oder andere Spiel. Manche davon kommen irgendwann ans Licht, andere bleiben für immer „fast fertig“. Wie das halt so ist.
+… brodeln noch einige private Projekte vor sich hin: KI-Assistenten, Server-Setups und das eine oder andere Spiel. Manche davon kommen irgendwann ans Licht, andere bleiben für immer „fast fertig“. Wie das halt so ist.
 
 ---
 
@@ -77,7 +114,8 @@ Genug von mir, hier sind die Projekte, an denen ich (gelegentlich mit KI-Kollege
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte">
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/Lokale_KI-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Lokale KI">
 </p>
