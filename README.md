@@ -61,16 +61,18 @@ Genug von mir, hier sind die Projekte, an denen ich (gelegentlich mit KI-Kollege
 
 ## 🎮 Projekt Nr. 3: PocketDimension
 
-**PocketDimension** *(privat, noch in der Werkstatt)* ist mein selbst gehostetes Kontrollzentrum für Gameserver. Statt mich nachts per SSH auf einen Server zu schleichen, weil jemand „nur kurz Minecraft“ spielen will, klickt man hier auf einen Knopf und bekommt einen eigenen Server als Docker-Container.
+**[PocketDimension](https://github.com/damaurer/PocketDimension)** ist mein selbst gehostetes Kontrollzentrum für Gameserver. Statt mich nachts per SSH auf einen Server zu schleichen, weil jemand „nur kurz Minecraft“ spielen will, klickt man hier auf einen Knopf und bekommt einen eigenen Server als Docker-Container.
 
 <p align="center">
   <img src="assets/pocketdimension-games.webp" alt="PocketDimension: Spielekatalog mit Core Keeper, Counter-Strike 2, Factorio, Minecraft, Palworld und Project Zomboid" width="700">
 </p>
 
-- 🕹️ **Spielekatalog:** Minecraft, Valheim, Terraria, Factorio, Counter-Strike 2, Palworld, Satisfactory, Rust, Core Keeper und Project Zomboid
+- 🕹️ **Spielekatalog:** Minecraft, Valheim, Terraria, Factorio, Counter-Strike 2, Palworld, Satisfactory, Rust, Core Keeper, Project Zomboid und neu OpenRA
 - 🧩 **Eigene Spiele:** Alles, was in Docker läuft, kommt per Vorlage dazu (Image, Ports, Datenordner, Variablen)
 - 📊 **Live-Status:** CPU, RAM, verbundene Spieler, Karte und Version jedes Servers
 - 🔀 **Port-Jonglage:** Der zweite Minecraft-Server bekommt automatisch andere Ports, damit sich niemand in die Quere kommt
+- 🔑 **Single Sign-on** per OpenID Connect, zum Beispiel mit Keycloak
+- 🌍 **Viersprachig:** Oberfläche und Handbücher auf Englisch, Deutsch, Spanisch und Tagalog. Warum Tagalog? Weil es geht.
 
 `SvelteKit` · `TypeScript` · `Docker` · `SQLite` · `GameDig`
 
@@ -78,7 +80,7 @@ Genug von mir, hier sind die Projekte, an denen ich (gelegentlich mit KI-Kollege
 
 ## 🍻 Projekt Nr. 4: Vereint
 
-**Vereint** *(privat, noch in der Werkstatt)* ist die App für Gruppen aller Art, vom Stammtisch über den Verein bis zum Team. Endlich keine Strichliste mehr auf dem Bierdeckel und keine Diskussion, wer die letzte Runde bezahlt hat.
+**[Vereint](https://github.com/damaurer/vereint)** ist die App für Gruppen aller Art, vom Stammtisch über den Verein bis zum Team. Endlich keine Strichliste mehr auf dem Bierdeckel und keine Diskussion, wer die letzte Runde bezahlt hat.
 
 <p align="center">
   <img src="assets/vereint-start.webp" alt="Vereint: Startseite mit Guthaben und nächstem Termin" width="240">
@@ -95,14 +97,21 @@ Genug von mir, hier sind die Projekte, an denen ich (gelegentlich mit KI-Kollege
 - 🍺 **Thekenterminal** im Kiosk-Modus mit digitaler Strichliste und dem Knopf „Ganzen Abend stiften“
 - 📸 **Moments** mit Fotos und kurzen Videos, dazu Statistiken und Einladungen per Link
 - 📱 Installierbar als Web-App mit Push-Mitteilungen
+- 🆓 **Open Source** unter AGPL-3.0, alle Funktionen frei nutzbar, ohne Tarife. Beiträge sind willkommen
 
 `Kotlin` · `Spring Boot` · `Angular SSR` · `Keycloak` · `PostgreSQL` · `AWS`
 
 ---
 
-## 🔒 Und in der geheimen Werkstatt …
+## 🔒 Streng geheim: Szenenwerk
 
-… brodeln noch einige private Projekte vor sich hin: KI-Assistenten, Server-Setups und das eine oder andere Spiel. Manche davon kommen irgendwann ans Licht, andere bleiben für immer „fast fertig“. Wie das halt so ist.
+<p align="center">
+  <img src="assets/szenenwerk-teaser.webp" alt="Unscharfer Ausschnitt aus dem Szenenwerk-Design" width="700">
+</p>
+
+Psst. Hier entsteht gerade ein **KI-gestütztes Animationsstudio**: Aus einer Geschichte macht eine Crew aus KI-Agents Drehbuch, Storyboard, Figuren, Clips, Ton und Musik bis zur fertigen Episode. Ich sitze nur noch im Regiestuhl und rufe „Cut!“.
+
+Mehr verrate ich nicht. Das Repo ist privat. Kein Release-Datum, kein Versprechen. Das Bild ist absichtlich unscharf, ihr kennt das ja aus Agentenfilmen. 🕵️
 
 ---
 
